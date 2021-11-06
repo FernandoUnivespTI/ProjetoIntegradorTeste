@@ -9,7 +9,7 @@ import os
 from sqlalchemy import or_
 
 app = Flask(__name__)
-app.secret_key = "Secret Key"
+app.secret_key = "ssds3dsds3344sad"
 
 path = os.path.abspath( os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///" + os.path.join(path , 'database.sqlite')
