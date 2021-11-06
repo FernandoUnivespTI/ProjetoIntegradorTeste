@@ -49,7 +49,7 @@ class User(UserMixin):
         self.password = password
 
 users = {
-    1: User(1, 'admin', 'admin') #usuário e senha
+    1: User(1, 'teste', '123') #usuário e senha
     
 }
 
